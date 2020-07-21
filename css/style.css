@@ -1,0 +1,65 @@
+  * { box-sizing: border-box; margin: 0;   padding: 0;}
+
+  p{ margin: 12px 0; font-family: Candara; font-size: 1em; }
+
+  h1, h2 {padding: 16px 0; font-family: Tahoma}
+
+  h1{color: white }
+  h2{color: white }
+
+  ul{padding-left: 40px; padding-bottom: 24px}
+
+  .container{max-width: 1280px; margin: 0 auto; }
+
+
+  .item-curso{
+    height: 320px;
+    width: 100%;
+  }
+
+  .cursos > .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px; 
+  }
+
+  .cursos {
+    padding-top: 20px;
+    background-color: transparent;
+  }
+
+  .item-curso  img{
+    max-width: 100%;
+    font-size: 0;
+    height: 160px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+/* Titulo do curso do item-curso */
+.item-curso h1{
+  font-size: 18px;
+  font-family: 'trebhuchet ms';
+  padding: 10px;
+  height: 45px;
+  
+}
+
+/* Paragrafo */
+.item-curso p{
+  font-size: 14px;
+  font-family: tahoma;
+  padding: 10px;
+  text-align: justify;
+  color: white;
+}
+
+.cab{
+  text-align:center;
+}
+
+.cab h1{
+  font-family:Arial;
+  color: white;
+}
+
